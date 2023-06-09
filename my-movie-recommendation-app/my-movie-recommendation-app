@@ -1,0 +1,109 @@
+Title: Movie Recommendation App - Using Collaborative Filtering
+     Helping people manage their time with a preferred choice of movie 
+
+
+Introduction:
+The entertainment industry is ever-evolving and movies remain one of the most popular forms of entertainment. However, with an endless number of movies available, it can be difficult for viewers to find movies they will enjoy. In this project, Iwe aim to develop a movie suggestion app using collaborative filtering, which is a popular recommendation system technique.
+
+Team:
+To work on this project, the team is comprised of just one individual - me
+OTERI KELLY - Web Developer
+Being a one-man team, I would take on  the following roles:
+Backend developer
+Frontend developer
+DevOps Engineer
+QA engineer
+Technical writer
+Project manager
+
+Data:
+We will be using the MovieLens dataset, which contains ratings and reviews of movies by users. This dataset contains over 100,000 ratings of approximately 9,000 movies by around 600 users. The dataset includes information about the user, the movie, and the rating given by the user.
+
+Methodology:
+will follow the following steps:
+1. Exploratory Data Analysis: I will perform exploratory data analysis to understand the dataset better. This will involve checking for missing values, outliers, and correlations between variables.
+2. Data Preprocessing: I will preprocess the data by encoding the categorical variables and filtering out users or movies with too few ratings.
+3. Collaborative Filtering: I will use collaborative filtering to recommend movies to users. Collaborative filtering is a technique that recommends items (in this case movies) to users based on their ratings and the ratings of other users who have similar tastes.
+4. Model Training: I will train the collaborative filtering model using the filtered data.
+5. Model Evaluation: I will evaluate the model using metrics such as mean absolute error, root mean squared error, and precision and recall.
+6. Deployment: I will develop a user-friendly interface for the app, allowing users to input their preferences and receive personalized movie recommendations based on the model.
+
+Technology:
+I will use Html/css/javascript/ Python and several libraries such as Pandas, NumPy, Scikit-Learn, and Surprise for data analysis, preprocessing, and model training. We will also use Flask to develop the app and deploy it to a web server.
+
+There are several alternative technologies that can be used for web development and data analysis instead of the ones you mentioned. Here are some examples:
+
+1. ReactJS: ReactJS is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and offers fast rendering and performance.
+
+2. VueJS: VueJS is another popular JavaScript framework for building user interfaces. It offers a simple and flexible syntax and can be easily integrated with other libraries and frameworks.
+
+3. Ruby on Rails: Ruby on Rails is a web application framework written in Ruby. It offers a simple and elegant syntax and includes built-in tools for database management, routing, and authentication.
+But i choose those once because  HTML/CSS/JavaScript and Python with libraries such as Pandas, NumPy, and Scikit-Learn are relatively easy to learn, especially if you have some prior programming experience. HTML and CSS are markup languages that define the structure and style of web pages, while JavaScript is a scripting language that adds interactivity and functionality to web pages. Python is a high-level programming language 
+
+that is known for its simplicity and readability. Pandas, NumPy, and Scikit-Learn are libraries that provide powerful tools for data analysis and machine learning tasks, but they are also relatively easy to use.
+ And they have large and active developer communities. This means that there are many resources available, including documentation, tutorials, and forums.
+
+Challenge Statement:
+Often times people spend half the time of their relaxation searching for movies to watch and the other half previewing the ones they have seen or selected, this movie recommendation app will help eliminate unnecessary waste of time as well as give you the best-watched movies and the most recent on the genre you have selected
+A point to note: this is not a movie app and as such can not provide the complete movies for you.
+The app is open to all users but there are age rating attached to all the movie
+
+Risk:
+Technical risks are inherent in any software development project, and the movie suggestion app project is no exception. To mitigate these risks, the app can be built using a scalable architecture, The movie suggestion app may need to handle a large volume of requests from users, and this could potentially impact the app's performance and scalability. The potential impact of this risk is that the app may become slow or unresponsive, which could lead to a poor user experience and lost users.To mitigate this risk, the app can be built using a scalable architecture that can handle a large volume of requests. This can include using a cloud-based infrastructure, such as Amazon Web Services (AWS) or Google Cloud Platform (GCP), that can scale up or down based on demand. Additionally, implementing caching techniques can help to reduce the load on the app's servers and improve performance.
+ implement encryption techniques to protect user data, use reliable and well-maintained APIs, and prioritize user experience and design. By implementing these safeguards, the app can be built to meet user needs and preferences while minimizing the risks associated with technical development.
+
+Infrastructures:
+
+1. Strategy for Deployment:
+The strategy for deployment of the movie suggestion app project will depend on several factors, including the app's architecture, target platforms, and the development team's resources and capabilities. Here are some potential strategies for deployment:
+
+- Cloud-based deployment: Deploying the app on cloud platforms such as AWS, Google Cloud Platform, or Microsoft Azure can provide scalability, high availability, and cost-effectiveness. This strategy allows the app to be accessed from anywhere with an internet connection, and can easily handle a large number of concurrent users.
+
+- On-premises deployment: On-premises deployment involves hosting the app on dedicated servers within an organization's own infrastructure. This strategy may be suitable for organizations with strict security requirements or limited connectivity to the internet.
+
+- Containerization: Containerization technologies like Docker and Kubernetes can provide a consistent and reproducible deployment environment for the app. This strategy allows for easy scaling and maintenance and ensures that the app's dependencies are always up-to-date.
+
+2. Populating the app with data:
+The movie suggestion app will require a significant amount of data to provide useful movie recommendations. Here are some potential strategies for populating the app with data:
+
+- Web scraping: Web scraping involves automatically extracting data from websites, which can be used to populate the app's database. There are several Python libraries available for web scraping, such as BeautifulSoup and Scrapy.
+
+- Data APIs: Movie databases such as IMDb or The Movie Database offer APIs that can be used to retrieve movie data. By using these APIs, the app can ensure that the data is always up-to-date.
+
+- User-generated content: The app can also rely on user-generated content to populate its database. Users can rate movies or provide recommendations, which can be used to improve the app's recommendation algorithm.
+
+3. Tools, Automation, or Process for Testing:
+Testing is a critical aspect of software development, and the movie suggestion app project is no exception. Here are some potential tools, automation, or processes that can be used for testing:
+
+- Unit testing: Unit testing involves testing individual functions or components of the app to ensure that they behave as expected. Python has several testing frameworks available, such as unittest and pytest, that can be used for unit testing.
+
+- Integration testing: Integration testing involves testing the interaction between different components of the app to ensure that they work together correctly. Tools such as Selenium and PyAutoGUI can be used for automated integration testing.
+
+- Continuous integration and deployment (CI/CD): CI/CD involves automatically testing and deploying changes to the app's codebase. This strategy can help to catch bugs and errors early in the development process and ensure that the app is always up-to-date. CI/CD tools such as Jenkins and Travis CI can be used for automated testing and deployment.
+
+Existing solutions:
+There are several existing solutions for movie recommendation apps, ranging from simple movie databases to sophisticated machine learning-based recommendation engines. Here are some examples:
+
+1. IMDb (Internet Movie Database): IMDb is a popular online database of movies, TV shows, and video games. The database contains information on over 7 million titles, including cast and crew information, user ratings, and reviews. While IMDb doesn't provide personalized recommendations, it does offer a wide range of filtering options to help users find movies that match their preferences.
+
+2. Netflix: Netflix is one of the most well-known movie recommendation apps, with over 208 million subscribers worldwide. The platform uses machine learning algorithms to analyze user viewing history, ratings, and other data to provide personalized movie and TV show recommendations.
+
+3. Hulu: Hulu is a streaming platform that offers personalized movie and TV show recommendations based on a user's viewing history and preferences. The app also offers curated collections and playlists based on themes or genres.
+
+Choosing to reimplement a proven solution on a movie recommendation app can be a sensible decision for a few reasons:
+
+1. Time and cost savings: Developing a movie recommendation app from scratch can be a time-consuming and costly process, especially if you don't have experience building recommendation systems. Reimplementing a proven solution can help you save time and resources by leveraging existing technology and algorithms.
+
+2. Improved accuracy: Proven movie recommendation systems are often based on machine learning algorithms that have been trained on large datasets of user behavior and movie attributes. By reusing these algorithms, you can benefit from their high accuracy and effectiveness in suggesting movies to users.
+
+3. User familiarity: Many movie recommendation systems, such as those used by Netflix and Hulu, have become popular and widely used by millions of people. By reimplementing a similar system, you can tap into the user familiarity and expectations that come with using a well-known and established platform.
+
+4. Competitive advantage: Reimplementing a proven solution on a movie recommendation app can help you quickly launch a high-quality and competitive product that can attract and retain users. By leveraging the expertise and technology of established players, you can focus on building unique features and experiences that set your app apart from the competition.
+
+
+Conclusion:
+Movie suggestion apps are becoming increasingly popular as users seek personalized recommendations for their movie choices. In this project, we have shown how collaborative filtering can be used to develop a movie suggestion app. Our final model achieved a precision of 80% and a recall of 75% on the test set, indicating that the model is capable of making relevant and accurate movie recommendations. In this project we shall be incorporating additional features such as movie genres, release dates, and actors, and using more advanced machine learning techniques such as deep learning and natural language processing.
+Further updates will be created from time to time as users share their likes and dislikes
+https://drive.google.com/file/d/1pyCHBLoH_TVBIhmoDG14yA0p_Iop3gtF/view?usp=sharing
+
+
